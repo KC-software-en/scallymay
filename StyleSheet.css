@@ -1,0 +1,75 @@
+body{
+	font-size: 30px;
+	color: MediumSlateBlue;
+	font-family: "baguet script", serif;
+	background-color: Linen;
+	text-align: justify;
+	text-align: center;
+	}
+h1{
+		color: MediumSlateBlue;
+		font-weight: bold;
+		text-align: center;	
+	}
+h2{	
+	color: MediumSlateBlue;
+	text-align: center;	
+	}
+button{
+	font-size: 18px;
+	background-color: Plum ;
+	color: LightBlue;
+	border-color: LightBlue;
+	margin: 10px;
+	}
+button:hover{
+	background-color: LightBlue;
+	color: Plum;
+	border-color: Plum;
+}	
+
+.container {
+  position: relative;
+  width: 50%;
+}
+/*use border-radius: 50% to make a circular image*/
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+  border-radius: 50%;
+}
+/*leave a space after hover*/
+.container:hover .overlay {
+  height: 100%;
+}
+.image {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+.hovertext {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* use ms to apply in Internet Explorer as well*/
+  -ms-transform: translate(-50%, -50%);
+}
+.formedit{
+	font-size: 18px;
+}
+input{
+	display: inline;
+}
+

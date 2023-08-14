@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<!-- Download Bootstrap
+link CSS 
+incl encoding
+incl responsive view for mobile devices
+Title-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link href = "StyleSheet.css" rel = "stylesheet" type = "text/css">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Indigo Fashion Online Store</title>
+</head>
+	
+	<!-- ● You are going to create an online shopping page. The idea behind this task
+is to create an online store with products on display. Please implement all
+of the below features by making use of Bootstrap in your program.
+● Items
+○ Add 10 items to the page.
+○ Use the grid system.
+use the class name row created by bootstrap
+○ Have your images become responsive (make them change when
+the user moves their mouse over them).
+○ Have your page display a price and name for each product.
+○ Include a button under each product to “buy” the product (this does
+not need to be functional yet!) -->
+<body>
+	<header>
+		<h1><span>Indigo Fashion</span></h1>
+	<br>    
+	</header>
+		<div class = "row">
+			<div class = "col-md-6">
+			<!-- logo align left -->
+				<img src ="images/indigo_fashion_logo.jpeg" 
+				alt = "Indigo Fashion" 
+				class = "float-left"
+				width = "200"
+				height = "200"
+				style = "border-radius: 50%">
+			</div>
+			
+			<div class = "col-md-1 text-right">
+			<!-- checkout align right-->
+				<button>Checkout</button>
+				<br>
+			</div>
+			
+			<div class = "col-md-1 text-right">
+			<!-- login/register align right-->
+				<button>Login</button>
+				<br>
+			</div>
+			
+			<div class = "col-md-1 text-right">
+				<button>Register</button>
+				<br>
+			</div>
+		</div>
+	<br>    
+		<div class = "row">
+		<h2>Casual clothing</h2>
+			<div class = "col-md-6">
+			<!-- item 1 
+			In order to create a responsive image, we can use the .img-fluid class within the <img> tag-->			
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 1 - R45</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+			<br>
+			<div class = "col-md-6">
+			<!-- item 2 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 2 - R230</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+		</div>
+	<br>    
+		<div class = "row">
+			<div class = "col-md-6">
+			<!-- item 3 -->		
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 3 - R340</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+			<br>
+			<div class = "col-md-6">
+			<!-- item 4 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 4 - R65</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+		</div>	
+	<br>    
+		<div class = "row">
+			<div class = "col-md-6">
+			<!-- item 5 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 5 - R230</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+			<br>
+			<div class = "col-md-6">
+			<!-- item 6 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 6 - R250</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+		</div>
+	<br>    
+		<div class = "row">
+			<div class = "col-md-6">
+			<!-- item 7 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 7 - R110</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+			<br>
+			<div class = "col-md-6">
+			<!-- item 8 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 8 - R200</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+		</div>
+	<br>    	
+		<div class = "row">
+			<div class = "col-md-6">
+			<!-- item 9 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 9 - R330</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+			<br>
+			<div class = "col-md-6">
+			<!-- item 10 -->
+				<div class="container">
+					<img src="images/item.png" alt="Indigo" class="image img-fluid ">
+					<div class="overlay">
+					<p class="hovertext">Item 10 - R180</p>
+					</div>
+				</div>
+				<button class="text-right">Add to basket</button>
+			</div>
+		</div>
+	<br>    
+<!-- ● Footer
+○ Create a horizontal form.
+○ This form should get the contact details of the customer (this does
+not need to be functional yet!)
+○ Include a small company logo next to the form -->
+	<footer>		
+		<img src ="images/indigo_fashion_logo.jpeg" 
+			alt = "Indigo Fashion" 
+			class = "float-left"
+			width = "100"
+			height = "100"
+			style = "border-radius: 50%">
+		<h3>Subscribe for promotional offers!</h3>
+		<form class = "formedit" style = "justify-content: center; display: flex;">
+			<table>
+			<tr>
+				<td>Gender</td>
+				<td>First name</td>
+				<td>Surname</td>
+				<td>Email</td>
+			</tr>
+			<tr>
+				<td><select>			
+					<option value = "female"> Female</option>
+					<option value = "male" > Male</option>
+					<option value = "other" > Other</option>
+				</select></td>
+				<td><input type = "text" name = "First name"/></td>
+				<td><input type = "text" name = "Surname"/></td>
+				<td><input type = "text" name = "Email" placeholder= "user@domain.com"/></td>
+			</tr>
+			</table>		
+			<br>			
+			<input type="submit" value ="Add subscriber" 
+					style = "
+					display: grid;
+					justify-content: center;
+					align-items: end;
+					height: 30px;
+					width: 10%;
+					text-align: center;
+					margin-top: 10px;					
+					border-radius: 20px;					
+					"/>	
+		</form>
+			<br>				
+		<p class = "formedit">Last updated on 9 May 2023</p>
+	</footer>
+</body>
